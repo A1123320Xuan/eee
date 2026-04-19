@@ -1,1 +1,18 @@
+%%{ init: { "gantt": { "dateFormat": "%Y-%m-%d", "title": "2026 项目开发进度表", "grid": { "h": 50 }, "axisFormat": "%Y-%m-%d" }}} %%
 
+gantt
+    title 2026 项目开发进度表
+    dateFormat  YYYY-MM-DD
+    section 需求分析
+    需求收集   :a1, 2026-05-01, 30d
+    需求评审   :after a1  , 20d
+    section 设计
+    系统设计   :2026-07-01  , 30d
+    section 开发
+    模块开发   :2026-08-01  , 60d
+    section 测试
+    系统测试   :2026-10-01  , 40d
+    section 部署
+    生产环境部署 :2026-12-01  , 20d
+    section 维护
+    维护支持   :2027-01-01  , 90d
